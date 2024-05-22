@@ -1,15 +1,7 @@
 ﻿@page
 @model CoinTrading.Pages.SignupModel
 @{
-    /*
-           * CREATE TABLE users (
-           id INTEGER PRIMARY KEY,
-           username TEXT,
-           password TEXT,
-           email TEXT,
-           timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
-           );
-    */
+    
     ViewData["Title"] = "Signup";
 }
 
@@ -58,7 +50,7 @@
 }
 </style>
 
-<form action="/Signup" method="post">
+<form method="post">
     <h2>Register Form</h2>
     <div class="input-container">
         <i class="fa fa-user icon"></i>
