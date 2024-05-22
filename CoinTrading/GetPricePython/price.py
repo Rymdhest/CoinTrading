@@ -4,7 +4,7 @@ import json
 import sqlite3
 
 # Skapa eller anslut till en SQLite-databas
-conn = sqlite3.connect('crypto_prices.db')
+conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
 # Skapa en tabell om den inte redan finns
