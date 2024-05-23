@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CoinTrading.Pages
+namespace WebApplication_Sqlite_Test_Slask.Pages
 {
     public class PrivacyModel : PageModel
     {
@@ -16,4 +16,5 @@ namespace CoinTrading.Pages
         {
         }
     }
+
 }

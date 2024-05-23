@@ -1,4 +1,4 @@
-namespace CoinTrading
+namespace WebApplication_Sqlite_Test_Slask
 {
     public class Program
     {
